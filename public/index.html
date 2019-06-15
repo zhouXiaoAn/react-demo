@@ -22,11 +22,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video-js.min.css">
     <title>React App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video.min.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- <video src="https://cmimhd.cmcc-cs.cn:31011/org2/app4/chatfiles/810d2390-8f48-11e9-9d78-29d4137f4229" id="video" data-setup={} controls>
+      <source src="https://cmimhd.cmcc-cs.cn:31011/org2/app4/chatfiles/810d2390-8f48-11e9-9d78-29d4137f4229" type="video/webm">
+        
+    </video> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -38,4 +44,8 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    // var video = document.getElementById("video")
+    videojs("video")
+  </script>
 </html>

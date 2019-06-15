@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+	
+<!--labelinput??-->
+
+<!--labelText??-->
+	
+	<!-- ??CSS?? -->
+	<link rel="stylesheet" type="text/css" href="/css/themes/easyui/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/css/themes/easyui/icon.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/table.css">
+    <link rel="stylesheet" type="text/css" href="/js/poshytip-1.2/tip-yellow/tip-yellow.css">  
+	<!-- ??js? -->
+	<script type="text/javascript" src="/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/lib/jquery.form.js"></script>
+	<script type="text/javascript" src="/js/messageUtil.js"></script>
+	<script type="text/javascript" src="/js/ext/jquery.pageController.js"></script>
+	<script type="text/javascript" src="/js/ext/jquery.validFrame.js"></script>
+	<script type="text/javascript" src="/js/lib/jquery.easyui.min.js"></script>
+	
+	<script type="text/javascript" src="/js/lib/locale/easyui-lang-zh_CN.js"></script>
+	<script type="text/javascript" src="/js/jquery.validatebox.js"></script>
+	<script type="text/javascript" src="/js/poshytip-1.2/jquery.poshytip.js"></script>
+	
+	
+	<script type="text/javascript" src="/js/common.fn.js"></script>
+	<script type="text/javascript" src="/js/dateUtil.js"></script>
+	
+	<!--????-->
+	<script type="text/javascript" src="/js/my97DatePicker/WdatePicker.js" ></script>
+	
+	<script type="text/javascript">
+		jQuery.basePath = "";
+		
+		
+	</script>
+	
+	
+<style type="text/css">
+	#error {
+		margin: 20px;
+		border: 
+		width:100%;
+	}
+	#error span {
+		display: block;
+		color: red;
+		padding-top: 5px;
+	}
+</style>
+</head>
+<body>
+<div id="error">
+	???????
+	<span style="">00000001</span>
+	<span>??????</span>
+	<span>1#[ java.io.FileNotFoundException: /zhouxw/portal-wysiwyg/63c2c30a-e70c-4242-ae3c-add38255c779-20180830144601-397.swf (No such file or directory).] 2#[ /zhouxw/portal-wysiwyg/63c2c30a-e70c-4242-ae3c-add38255c779-20180830144601-397.swf (No such file or directory).] </span>
+</div>
+</body>
+</html>
